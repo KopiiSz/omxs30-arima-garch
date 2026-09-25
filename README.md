@@ -6,9 +6,6 @@ An empirical study of the Swedish stock market. I model the daily log returns of
 *Course project, Financial Econometrics, MSc Advanced Economics and Finance, Copenhagen Business School.*
 📄 **[Read the full report (PDF)](report/OMXS30_ARIMA_GARCH_report.pdf)**
 
-![Fitted conditional volatility of the OMXS30](docs/img/conditional_volatility.png)
-<sub>Fitted GARCH(1,1) conditional daily volatility, 1995–2025. The dashed line is the unconditional volatility implied by the model.</sub>
-
 ---
 
 ## The story in four steps
@@ -32,13 +29,6 @@ An empirical study of the Swedish stock market. I model the daily log returns of
 | Unconditional volatility | 1.46% daily, ≈ 23% annualised |
 
 Volatility is highly persistent and driven mainly by its own past (β ≫ α). This is in line with Engle & Patton (2001) for the Dow Jones.
-
-<table>
-<tr>
-<td><img src="docs/img/index_level.png" alt="OMXS30 index level"><br><sub>OMXS30 index level, 1995–2025</sub></td>
-<td><img src="docs/img/volatility_forecast.png" alt="90-day volatility forecast"><br><sub>Annualised conditional volatility: last year in-sample and a 90-trading-day forecast that reverts towards ≈ 23%</sub></td>
-</tr>
-</table>
 
 ## Repository structure
 
